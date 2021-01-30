@@ -1,0 +1,67 @@
+body {
+	background-color: lightblue;
+}
+
+div#contenedor {
+	display: flex;
+	width: 100%;
+	flex-flow: column;
+}
+
+div#head {
+	font-family: Verdana;
+	font-size: 80px;
+	display: flex;
+	margin-left: 25px;
+	flex-flow: row;
+	justify-content: center;
+}
+
+div#imagenCora {
+	padding-top: 10px;
+	margin-left: 30px;
+}
+
+div#main {
+	margin-top: 20px;
+	display: flex;
+	flex-flow: column;
+	font-size: 25px;
+}
+
+img#imagen1 {
+	border: 10px solid white;
+	border-radius: 20px;
+	margin-right: 20px;
+}
+
+img#imagen2 {
+	border: 10px solid white;
+	border-radius: 20px;
+}
+
+div#conjunto1 {
+	display: flex;
+	justify-content: center;
+}
+
+div#conjunto2 {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+div#conjunto3 {
+	margin-top: 20px;
+	margin-left: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+input[type="button"] {
+	background: white;
+	border-radius: 20px;
+	margin-top: 30px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}

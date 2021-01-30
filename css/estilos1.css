@@ -1,0 +1,53 @@
+body {
+	background-color: #FADBD8;
+}
+
+div#contenedor {
+	display: flex;
+	width: 100%;
+	flex-flow: column;
+}
+
+div#head {
+	font-family: 'Lobster', cursive;
+	font-size: 80px;
+	display: flex;
+	flex-flow: row;
+	justify-content: center;
+}
+
+div#imagenCora {
+	padding-top: 10px;
+	margin-left: 30px;
+}
+
+div#main {
+	margin-top: 20px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Caveat', cursive;
+	font-size: 25px;
+}
+
+div#elemento1 {
+	width: 800px;
+	border: 10px solid black;
+	padding: 20px;
+}
+
+b {
+	color: red;
+}
+
+a {
+	color: orange;
+}
+
+u {
+	color: red;
+	font-size: 40px;
+}
+
+strong {
+	color: green;
+}
